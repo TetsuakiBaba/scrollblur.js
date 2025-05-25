@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Scroll Speed Blur Demo</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #fafafa;
+        }
+
+        .section {
+            height: 100vh;
+            border-bottom: 1px solid #ccc;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            /* 要素を縦に並べる */
+            font-size: 3em;
+            background: linear-gradient(135deg, #fff, #e3e3ff 90%);
+        }
+
+        .section:nth-child(even) {
+            background: linear-gradient(135deg, #f6ffe3, #fff 90%);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="section">
+        <span>Section 1</span>
+        <img src="https://images.unsplash.com/photo-1542272201-b1ca555f8505?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&h=800&q=80"
+            alt="Image for Section 1" style="width: 100%; height: 80vh; object-fit: cover; margin-top: 20px;">
+    </div>
+    <div class="section">
+        <span>Section 2</span>
+        <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&h=800&q=80"
+            alt="Image for Section 2" style="width: 100%; height: 80vh; object-fit: cover; margin-top: 20px;">
+    </div>
+    <div class="section">
+        <span>Section 3</span>
+        <img src="https://images.unsplash.com/photo-1501854140801-50d01698950b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&h=800&q=80"
+            alt="Image for Section 3" style="width: 100%; height: 80vh; object-fit: cover; margin-top: 20px;">
+    </div>
+    <div class="section">
+        <span>Section 4</span>
+        <img src="https://images.unsplash.com/photo-1469474968028-56623f02e42e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&h=800&q=80"
+            alt="Image for Section 4" style="width: 100%; height: 80vh; object-fit: cover; margin-top: 20px;">
+    </div>
+    <div class="section">
+        <span>Section 5</span>
+        <img src="https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&h=800&q=80"
+            alt="Image for Section 5" style="width: 100%; height: 80vh; object-fit: cover; margin-top: 20px;">
+    </div>
+    <script src="scrollblur.js"></script>
+</body>
+
+</html>

@@ -26,7 +26,7 @@ You can load the script from a CDN as follows:
 
 ```html
 <!-- Add this to the head element or before the closing body tag in your HTML file -->
-<script src="https://cdn.example.com/scrollblur.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/TetsuakiBaba/scrollblur.js/scrollblur.js"></script>
 ```
 
 You can also customize settings using URL parameters:
