@@ -1,4 +1,7 @@
+https://github.com/user-attachments/assets/82f2d93b-b110-4f88-b159-123d07e944f0
+
 # scrollblur.js
+
 
 This project demonstrates a blur effect applied to web page content based on scrolling speed. The faster you scroll, the stronger the blur effect becomes, and when scrolling stops, the blur effect gradually fades away.
 
